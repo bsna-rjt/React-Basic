@@ -9,11 +9,11 @@ const Button = (props) => {
     </div>
   )
 }
-Button.propTypes={
+Button.propTypes={ //for textInsideButton props in string validation
     textInsideButton:PropTypes.string.isRequired
 }
-// Button.defaultProps={
-//     bgColor:'yellow',
-//     textInsideButton:'Hello World'
-// }
+Button.defaultProps={ // for default text and color if props not send in parent
+    bgColor:'yellow',
+    textInsideButton:'Hello World'
+}
 export default Button
