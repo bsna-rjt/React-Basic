@@ -1,18 +1,23 @@
 Extensions:
-ES7+
+ES7+ React/Redux/React-Native snippets ,
 Console Ninja
 
 rafce shortcut to create component in .jsx file. 
 
-npm create vite@latest
+server port can be changed in vile.config.js
 
-npm run dev
+npm create vite@latest //to create new react project using vite
 
-npm install react-router-dom
+npm run dev //to run project // package.json >> scripts "dev":"vite"
 
-npm install vite -g
+npm install react-router-dom //for react routes
 
-npm i prop-types
+npm install vite -g //if vite command not found is shown
+
+npm i prop-types // to install prop-types for props validation
+
+Props:
+Parent to Child 
 
 Hooks:
 useState for re-render
