@@ -4,6 +4,7 @@ import Home from './Home';
 import About from './About';
 // import {RouterProvider} from 'react-router-dom';
 // import router from './routes';
+import UseEffect from './UseEffect';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <Route path="/" element={<Home />}/>
     <Route path="/about" element={<About/>}/>
     <Route path="/contact" element={<h1>Contact Page</h1>}/>
+    <Route path="/useEffect" element={<UseEffect/>}/>
    </Routes>
    </BrowserRouter>
   // <RouterProvider router={router}/>

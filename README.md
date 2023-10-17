@@ -1,3 +1,6 @@
+
+[::1]:5173 //Hexa Value //[::1] represents localhost
+
 Extensions:
 ES7+ React/Redux/React-Native snippets ,
 Console Ninja
@@ -21,3 +24,9 @@ Parent to Child
 
 Hooks:
 useState for re-render
+useState is a type of hook for data storage
+
+3 types of useEffect:
+1. useEfffect(()=>{},[]) //function, dependency array
+2. useEffect(()=>{},[state1,state2]) //function, state
+3. useEffect(()=>{}) //function
