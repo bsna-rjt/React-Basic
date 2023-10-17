@@ -12,11 +12,15 @@ const UseEffect = () => {
     // },[])
 
     //Type 2 of UseEffect on the basis of execution
-    useEffect(()=>{
-        document.title=count; //dom manipulation in title
-        console.log("useEffect Triggered");
-    },[count,count2]) //console is shown when count's value is changed // add count2 to console when count2 value is also change
+    // useEffect(()=>{
+    //     document.title=count; //dom manipulation in title
+    //     console.log("useEffect Triggered");
+    // },[count,count2]) //console is shown when count's value is changed // add count2 to console when count2 value is also change
 
+    //Type 3 of UseEffect on the basis of execution
+    useEffect(()=>{ //Type 3 not used //console is shown when state are changed 
+        console.log("Type 3 useEffect Trigger");
+    })
 
   return (
     <div>UseEffect
