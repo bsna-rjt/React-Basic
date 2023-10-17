@@ -13,8 +13,9 @@ const UseEffect = () => {
 
     //Type 2 of UseEffect on the basis of execution
     useEffect(()=>{
+        document.title=count; //dom manipulation in title
         console.log("useEffect Triggered");
-    },[count]) //console is shown when count's value is changed
+    },[count,count2]) //console is shown when count's value is changed // add count2 to console when count2 value is also change
 
 
   return (
